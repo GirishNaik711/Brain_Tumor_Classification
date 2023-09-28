@@ -1,18 +1,13 @@
 # CodeClauseInternship_Brain_Tumor_Classification
 
-✔️ Abstract
-A Brain tumor is considered as one of the aggressive diseases, among children and adults. Brain tumors account for 85 to 90 percent of all primary Central Nervous System(CNS) tumors. Every year, around 11,700 people are diagnosed with a brain tumor. The 5-year survival rate for people with a cancerous brain or CNS tumor is approximately 34 percent for men and36 percent for women. Brain Tumors are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc. Proper treatment, planning, and accurate diagnostics should be implemented to improve the life expectancy of the patients. The best technique to detect brain tumors is Magnetic Resonance Imaging (MRI). A huge amount of image data is generated through the scans. These images are examined by the radiologist. A manual examination can be error-prone due to the level of complexities involved in brain tumors and their properties.
-Application of automated classification techniques using Machine Learning(ML) and Artificial Intelligence(AI)has consistently shown higher accuracy than manual classification. Hence, proposing a system performing detection and classification by using Deep Learning Algorithms using Convolution-Neural Network (CNN), Artificial Neural Network (ANN), and Transfer-Learning (TL) would be helpful to doctors all around the world.
+ABSTRACT:
+Brain tumors are aggressive diseases affecting both children and adults, comprising 85-90% of primary Central Nervous System tumors. Each year, about 11,700 people are diagnosed, with a 5-year survival rate of 34% for men and 36% for women. They are categorized as benign, malignant, pituitary, etc. Early diagnosis through Magnetic Resonance Imaging (MRI) is crucial. Automated classification with Machine Learning and Artificial Intelligence, particularly using Convolutional Neural Networks (CNN), Artificial Neural Networks (ANN), and Transfer Learning (TL), is more accurate than manual methods, offering a promising solution for global medical use.
 
-✔️ Context
-Brain Tumors are complex. There are a lot of abnormalities in the sizes and location of the brain tumor(s). This makes it really difficult for complete understanding of the nature of the tumor. Also, a professional Neurosurgeon is required for MRI analysis. Often times in developing countries the lack of skillful doctors and lack of knowledge about tumors makes it really challenging and time-consuming to generate reports from MRI’. So an automated system on Cloud can solve this problem.
-
-✔️ Definition
+TASK:
 To Detect and Classify Brain Tumor using, CNN and TL; as an asset of Deep Learning and to examine the tumor position(segmentation).
 
-✔️ About the data:
-The dataset contains 3 folders: yes, no and pred which contains 3060 Brain MRI Images.
+DATA DESCRIPTION:
 
-Folder	Description
-Yes	The folder yes contains 1500 Brain MRI Images that are tumorous
-No	The folder no contains 1500 Brain MRI Images that are non-tumorous
+The dataset contains 3 folders: yes, no and pred which contains 3060 Brain MRI Images.
+Yes:	The folder yes contains 1500 Brain MRI Images that are tumorous
+No:	The folder no contains 1500 Brain MRI Images that are non-tumorous
